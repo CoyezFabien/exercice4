@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+</head>
+
+<body>
+    <form method="POST" action="#">
+        <fieldset class="formaulaire">
+
+                    <label for="lastName">Nom de famille</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Du Bois">
+                    <label for="firstName">Prénom</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Jean-Pierre">
+                    <label for="city">Ville</label>
+                    <input type="text" name="city" id="city" placeholder="Bordeaux">
+                    
+        </fieldset>
+        <input type="submit" onclick="fonction()" value="Envoyer">
+        <!-- Les éléments <input> dont l'attribut type vaut "submit" sont affichés comme des boutons permettant d'envoyer les données d'un formulaire. Cliquer sur un tel bouton déclenchera l'envoi des données du formulaire vers le serveur. -->
+        <!-- value Cet attribut définit la valeur par défaut qui sera affichée dans l'élément au chargement de la page. -->
+    </form>
+<!-- on va créer un evennement avec le "onclick" 
+Les événements sont des actions de l'utilisateur, qui vont pouvoir donner
+lieu à une interactivité. L'événement par excellence est le clic
+de souris, car c'est le seul que le HTML gère. Grâce au Javascript il est possible
+d'associer des fonctions, des méthodes à des événements tels que le passage
+de la souris au-dessus d'une zone, le changement d'une valeur, ... 
+le onclick permet de relier le bouton de soumission à ta fonction présente dans le fichier javascript
+-->
+    <script src="../Ex4 JS/Assets/JS/ex4.js"></script>
+</body>
+</html>
